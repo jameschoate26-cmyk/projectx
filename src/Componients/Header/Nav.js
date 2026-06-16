@@ -75,7 +75,7 @@ export const Navbar = styled.main`
     }
 
     .logo_tag img {
-      width: 100px;
+      width: 200px;
     }
 
     ul {

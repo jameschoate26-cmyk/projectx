@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Contact = styled.main`
-  width: min(100%, var(--align-page));
+  width: var(--align-page);
   margin: auto;
   padding: 100px 20px;
 
@@ -89,7 +89,8 @@ export const Contact = styled.main`
 
   @media (max-width: 768px) {
     margin-top: 60px;
-    padding: 60px 16px;
+    /* padding: 60px 16px; */
+    width: 100% !important;
 
     .contact-section {
       padding: 24px;
