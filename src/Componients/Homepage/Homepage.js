@@ -90,7 +90,12 @@ export const Home_page = styled.main`
   }
 
   @media (max-width: 1200px) {
-    margin-top: 100px;
+    .video-content {
+      display: none;
+    }
+    .video-write {
+      margin-top: 90px;
+    }
     .box {
       margin: 0;
       height: 230px;

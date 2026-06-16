@@ -8,12 +8,12 @@ export const Why_mars = styled.main`
   .images {
     width: 100%;
     margin-top: 68px;
-    height: 500px;
+    /* height: 500px; */
   }
 
   .images img {
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
   }
 
   .body {
@@ -113,14 +113,6 @@ export const Why_mars = styled.main`
   /* ========================= */
 
   @media (max-width: 1200px) {
-    .images {
-      height: 400px !important;
-    }
-
-    .images img {
-      width: 100%;
-      height: 400px !important;
-    }
     .body {
       width: 95%;
       gap: 2.5rem;

@@ -17,8 +17,7 @@ const Homepage = () => {
 
         <div className="video-content">
           <h1>Mars Is No Longer a Dream. It’s the Next Address of Humanity.</h1>
-          {/* <p>Welcome to my website</p>
-          <button>Contact Me</button> */}
+   
         </div>
 
         <div className="content-box">
