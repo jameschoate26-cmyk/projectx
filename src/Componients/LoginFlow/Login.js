@@ -115,7 +115,8 @@ export const Login_page = styled.main`
 
   /* Responsive Styles */
   @media (max-width: 900px) {
-    margin-top: 120px;
+    margin-top: 140px;
+    width: 100% !important;
     .loginView {
       flex-direction: column;
       align-items: stretch;

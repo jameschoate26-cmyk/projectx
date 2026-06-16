@@ -113,6 +113,14 @@ export const Why_mars = styled.main`
   /* ========================= */
 
   @media (max-width: 1200px) {
+    .images {
+      height: 400px !important;
+    }
+
+    .images img {
+      width: 100%;
+      height: 400px !important;
+    }
     .body {
       width: 95%;
       gap: 2.5rem;

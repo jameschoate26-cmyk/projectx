@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const Project = styled.main`
-  /* height: 100vh; */
-  /* width: min(100%, var(--align-page)); */
-  margin: auto;
+  font-family: var(--font-body);
 
   .images {
     width: 100%;
@@ -117,6 +115,14 @@ export const Project = styled.main`
 
   /* Large Tablets */
   @media (max-width: 1200px) {
+    .images {
+      height: 400px !important;
+    }
+
+    .images img {
+      width: 100%;
+      height: 400px !important;
+    }
     .body {
       gap: 2rem;
     }

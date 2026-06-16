@@ -88,7 +88,7 @@ export const Contact = styled.main`
   }
 
   @media (max-width: 768px) {
-    margin-top: 60px;
+    margin-top: 40px;
     /* padding: 60px 16px; */
     width: 100% !important;
 
