@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+html, body {
+  height: 100%;
+    background-color: #111827;
+  color: var(--text-main);
+
+}
+:root {
+  /* Main theme */
+--nav-background: #273449;
+  --bg-main: #334155;      /* sections/cards */
+  /* --bg-card: #334155;      sections/cards */
+  --bg-hover: #3b4a63;     /* hover state */
+
+  /* Text colors */
+  --text-main: #f9fafb;    /* main text (white soft) */
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+   --align-page: 90%;
+
+  /* Accent */
+  --main-color: #c1440e;
+
+  /* Border */
+  --border-color: #475569;
+  --footer-background: #1e293b;
+
+  /* Fonts */
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+}
