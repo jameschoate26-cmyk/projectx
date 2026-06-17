@@ -12,6 +12,7 @@ export const Project = styled.main`
     display: block;
     width: 100%;
     height: auto;
+    object-fit: cover;
   }
 
   .body {

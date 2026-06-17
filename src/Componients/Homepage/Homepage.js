@@ -13,6 +13,7 @@ export const Home_page = styled.main`
     width: 100%;
     display: block;
     filter: brightness(70%);
+    object-fit: cover;
   }
 
   .video-content {

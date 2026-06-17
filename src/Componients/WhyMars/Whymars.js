@@ -11,9 +11,11 @@ export const Why_mars = styled.main`
   }
 
   .images img {
+    display: block;
     width: 100%;
+    height: auto;
+    object-fit: cover;
   }
-
   .body {
     width: var(--align-page);
     margin: 5rem auto;
