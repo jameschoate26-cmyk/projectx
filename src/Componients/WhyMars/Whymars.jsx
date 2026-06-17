@@ -1,7 +1,7 @@
 import React from "react";
 import { Why_mars } from "./Whymars";
-import ima from "../../assets/image/5.jpeg";
-import ima2 from "../../assets/image/6.jpeg";
+import ima from "../../assets/image/6.jpeg";
+import ima2 from "../../assets/image/5.jpeg";
 
 const Mars = () => {
   return (

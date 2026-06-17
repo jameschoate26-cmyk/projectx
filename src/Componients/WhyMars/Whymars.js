@@ -7,13 +7,11 @@ export const Why_mars = styled.main`
 
   .images {
     width: 100%;
-    margin-top: 68px;
-    /* height: 500px; */
+    margin-top: -250px;
   }
 
   .images img {
     width: 100%;
-    /* height: 500px; */
   }
 
   .body {
@@ -128,6 +126,11 @@ export const Why_mars = styled.main`
   /* ========================= */
 
   @media (max-width: 992px) {
+    .images {
+      width: 100%;
+      margin-top: 50px;
+    }
+
     .body {
       grid-template-columns: 1fr;
       gap: 2rem;
@@ -158,6 +161,10 @@ export const Why_mars = styled.main`
   /* ========================= */
 
   @media (max-width: 768px) {
+    .images {
+      width: 100%;
+      margin-top: 100px;
+    }
     .body {
       width: 95%;
       margin: 3rem auto;

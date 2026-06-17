@@ -1,8 +1,8 @@
 import React from "react";
 import { Project } from "./Projectx.js";
-import image from "../../assets/image/1.jpeg";
-import image2 from "../../assets/image/4.jpeg";
-import mars from "../../assets/image/3.jpeg";
+import image from "../../assets/image/4.jpeg";
+import image2 from "../../assets/image/3.jpeg";
+import mars from "../../assets/image/1.jpeg";
 
 const ProjectX = () => {
   return (

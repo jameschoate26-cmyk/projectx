@@ -1,6 +1,9 @@
 import React from "react";
 import { MeetourTeam } from "./MeetOurTeam.js";
-import images from "../../assets/image/team-1.jpg";
+import image3 from "../../assets/image/meet3.jpeg";
+import image1 from "../../assets/image/meet1.jpeg";
+import image2 from "../../assets/image/meet2.jpeg";
+import image4 from "../../assets/image/meet4.jpeg";
 
 const Meet_Our_Team = () => {
   return (
@@ -16,31 +19,31 @@ const Meet_Our_Team = () => {
       <div className="image_box">
         <div>
           <div className="image">
-            <img src={images} alt="images" />
+            <img src={image1} alt="images" />
           </div>
-          <p className="imagename">Dan Demarco</p>
-          <p className="imagename">founder</p>{" "}
+          <p className="imagename">Gwynne Shotwell</p>
+          <p className="imagename">President and COO of SpaceX</p>{" "}
         </div>
         <div>
           <div className="image">
-            <img src={images} alt="images" />
+            <img src={image2} alt="images" />
           </div>
-          <p className="imagename">Dan Demarco</p>
-          <p className="imagename">founder</p>
+          <p className="imagename">William Gerstenmaier</p>
+          <p className="imagename">Mission Assurance Chief</p>
         </div>
         <div>
           <div className="image">
-            <img src={images} alt="images" />
+            <img src={image3} alt="images" />
           </div>
-          <p className="imagename">Dan Demarco</p>
-          <p className="imagename">founder</p>{" "}
+          <p className="imagename">Mark Juncosa</p>
+          <p className="imagename">Senior engineering leader</p>{" "}
         </div>
         <div>
           <div className="image">
-            <img src={images} alt="images" />
+            <img src={image4} alt="images" />
           </div>
-          <p className="imagename">Dan Demarco</p>
-          <p className="imagename">founder</p>{" "}
+          <p className="imagename">Tom Ochinero</p>
+          <p className="imagename">Vice President of Starship Programs</p>{" "}
         </div>
       </div>
     </MeetourTeam>
