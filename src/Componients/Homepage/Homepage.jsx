@@ -3,21 +3,18 @@ import { Home_page } from "./Homepage.js";
 import MarsLegacy from "./MarsLegacy.jsx";
 import Founder from "./Founder.jsx";
 import Meet_Our_Team from "./MeetOurTeam.jsx";
+import vedoe from "../../assets/image/2acqFRER0uPBOCxSfdGyf_video.mp4";
 
 const Homepage = () => {
   return (
     <Home_page>
       <div className="video-write">
         <video className="home-video" autoPlay muted loop playsInline>
-          <source
-            src="https://themes.incognitothemes.com/andor/assets/videos/home-video-1.mp4"
-            type="video/mp4"
-          />
+          <source src={vedoe} type="video/mp4" />
         </video>
 
         <div className="video-content">
           <h1>Mars Is No Longer a Dream. It’s the Next Address of Humanity.</h1>
-   
         </div>
 
         <div className="content-box">

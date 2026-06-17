@@ -15,7 +15,12 @@ const Register = () => {
         <div className="login">
           <div>
             <p>Returning User</p>
-            <span>Welcome back. Please enter your login details.</span>
+            <span>
+              <span>
+                Create your account and get started in just a few steps.
+              </span>
+              .
+            </span>
           </div>
           <div>
             <label htmlFor="email">Full-Name</label>
@@ -67,7 +72,7 @@ const Register = () => {
             </span>{" "}
           </div>
           <div>
-            <button>Login</button>
+            <button>Register</button>
           </div>
         </div>
 

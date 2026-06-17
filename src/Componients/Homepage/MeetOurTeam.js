@@ -45,11 +45,9 @@ export const MeetourTeam = styled.main`
   }
 
   .imagename {
-    margin-top: 10px;
     text-align: center;
     font-family: var(--font-heading);
     color: var(--text-main);
-    line-height: 1.4;
   }
 
   @media (max-width: 992px) {

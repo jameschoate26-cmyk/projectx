@@ -11,9 +11,9 @@ export const Home_page = styled.main`
 
   .home-video {
     width: 100%;
+    height: auto;
     display: block;
     filter: brightness(70%);
-    object-fit: cover;
   }
 
   .video-content {
