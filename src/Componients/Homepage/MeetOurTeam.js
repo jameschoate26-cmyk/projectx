@@ -2,18 +2,18 @@ import styled from "styled-components";
 
 export const MeetourTeam = styled.main`
   font-family: var(--font-body);
-  margin-block: 2rem;
-  .ourteams {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    gap: 10px;
-    width: 50%;
-    margin: auto;
+  width: var(--align-page);
+  margin: 2rem auto;
+
+  .ourteams p {
+    /* text-transform: capitalize; */
+    font-family: var(--font-heading);
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: var(--text-main);
+    position: relative;
     text-align: center;
-    color: var(--text-secondary);
   }
 
   .image_box {
@@ -52,5 +52,19 @@ export const MeetourTeam = styled.main`
     margin-block: 1rem;
     line-height: 4px;
     color: var(--text-secondary);
+  }
+
+  @media screen and (max-width: 660px) {
+    .image_box {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .image_box {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 `;

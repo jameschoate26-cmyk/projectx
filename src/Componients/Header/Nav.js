@@ -70,8 +70,12 @@ export const Navbar = styled.main`
   @media (max-width: 900px) {
     .nav_bar {
       flex-direction: column;
-      gap: 12px;
+      gap: 8px;
       padding: 15px 0px;
+    }
+
+    .middle_tag > ul > li:nth-child(1) {
+      display: none;
     }
 
     .logo_tag img {
@@ -80,7 +84,7 @@ export const Navbar = styled.main`
 
     ul {
       flex-wrap: wrap;
-      gap: 12px;
+      gap: 30px;
     }
   }
 `;

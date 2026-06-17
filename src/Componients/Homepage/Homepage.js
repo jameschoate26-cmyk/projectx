@@ -2,12 +2,11 @@ import styled from "styled-components";
 
 export const Home_page = styled.main`
   font-family: var(--font-body);
-
-  margin: auto;
+  margin-top: -20px;
+  /* margin: auto; */
 
   .video-write {
     position: relative;
-    margin-top: 0px;
   }
 
   .home-video {
@@ -109,13 +108,14 @@ export const Home_page = styled.main`
   }
 
   @media (max-width: 830px) {
+    margin-top: 0px;
     .content-box {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
     }
 
     .box {
-      height: 250px;
+      height: auto;
     }
   }
 `;

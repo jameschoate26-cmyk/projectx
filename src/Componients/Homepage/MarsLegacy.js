@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Mars_Legacy = styled.main`
   font-family: var(--font-body);
   margin-top: 30px;
+  width: var(--align-page);
+  margin: auto;
 
   .boxs {
     display: flex;
@@ -21,13 +23,13 @@ export const Mars_Legacy = styled.main`
     background-color: var(--bg-main);
     box-shadow: var(--shadow-sm);
     overflow: hidden;
-    height: 320px;
-    padding: 10px 10px;
+    /* height: 320px; */
+    padding: 10px 2px;
   }
 
   .IMG {
     width: 100%;
-    height: 320px;
+    /* height: 320px; */
     overflow: hidden;
     border-radius: 8px;
   }
@@ -57,9 +59,14 @@ export const Mars_Legacy = styled.main`
     font-family: var(--font-body);
   }
 
+  @media (max-width: 1200px) {
+    .MARS {
+    }
+  }
+
   @media (max-width: 768px) {
     .boxs {
-      flex-direction: column;
+      flex-direction: column-reverse;
     }
 
     .IMG {

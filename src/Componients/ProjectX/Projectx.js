@@ -5,13 +5,13 @@ export const Project = styled.main`
 
   .images {
     width: 100%;
-    margin-top: 68px;
-    height: 500px;
+    margin-top: -80px;
   }
 
   .images img {
+    display: block;
     width: 100%;
-    height: 500px;
+    height: auto;
   }
 
   .body {
@@ -115,14 +115,6 @@ export const Project = styled.main`
 
   /* Large Tablets */
   @media (max-width: 1200px) {
-    .images {
-      height: 400px !important;
-    }
-
-    .images img {
-      width: 100%;
-      height: 400px !important;
-    }
     .body {
       gap: 2rem;
     }
@@ -138,6 +130,10 @@ export const Project = styled.main`
 
   /* Tablets */
   @media (max-width: 992px) {
+    .images {
+      width: 100%;
+      margin-top: 80px;
+    }
     .body {
       flex-direction: column;
     }

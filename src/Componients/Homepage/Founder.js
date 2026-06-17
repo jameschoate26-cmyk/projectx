@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const Founder_ceo = styled.main`
-  height: 300px;
+  /* height: 300px; */
+
   display: flex;
+  padding: 10px 0px;
   justify-content: center;
   background-color: var(--bg-main);
-  /* background-color: var(--bg-main); */
+  width: var(--align-page);
+  margin: auto;
   box-shadow: var(--shadow-sm);
   align-items: center;
   font-family: var(--font-body);
@@ -20,10 +23,12 @@ export const Founder_ceo = styled.main`
     gap: 15px;
   }
   p {
-    font-size: 16px;
-    color: var(--text-secondary);
-    font-family: var(--font-body);
     text-transform: capitalize;
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    line-height: 1.2;
+    color: var(--text-main);
+    position: relative;
   }
 
   .imges {
@@ -47,20 +52,19 @@ export const Founder_ceo = styled.main`
   }
 
   .span {
-    padding: 10px 30px;
     text-align: center;
   }
   span {
     font-size: 14px;
     color: var(--text-secondary);
     line-height: 1.6;
-    padding: 0 15px 20px;
+    padding: 0px 10px;
     font-family: var(--font-body);
   }
 
   @media (max-width: 900px) {
     height: auto;
-    padding: 24px 16px;
+    /* padding: 24px 16px; */
 
     .CEO {
       gap: 12px;
@@ -79,11 +83,12 @@ export const Founder_ceo = styled.main`
     span {
       font-size: 13px;
       line-height: 1.5;
-      padding: 0 10px 15px;
+      /* padding: 0 10px 15px; */
     }
 
     .span {
-      padding: 8px 15px;
+      /* padding: 8px 15px; */
+      padding: 10px;
     }
   }
 `;
